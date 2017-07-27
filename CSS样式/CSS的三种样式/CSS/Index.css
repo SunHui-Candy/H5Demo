@@ -1,0 +1,11 @@
+div{
+    font-size: 20px;
+    background-color: antiquewhite;
+    border: 4px dashed yellow;
+}
+
+p{
+    font-size: 20px;
+    background-color: orange;
+    color: blue;
+}

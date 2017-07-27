@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS的页内样式</title>
+
+    <!--
+    CSS的原则:
+        1, 就近原则
+        2, 叠加原则
+       首先距离内容近的样式,其次如果距离远的样式距离近的没有,就会使用距离远里的样式
+
+    -->
+
+
+    <style>
+
+        div{
+            color: red;
+            background-color: yellow;
+            font-size: 20px;
+            /*边框, 宽度, 样式:solid(实线)double(双线)dashed(虚线), 颜色*/
+            border: 4px dashed blue;
+        }
+
+        p{
+            color: orange;
+            background-color: green;
+            font-size: 20px;
+            border: 4px double blue;
+        }
+    </style>
+
+    <link rel="stylesheet" href="CSS/Index.css">
+
+
+</head>
+<body>
+
+    <div>我是div标签</div>
+    <br>
+    <div>我是div标签</div>
+    <br>
+    <div>我是div标签</div>
+    <br>
+    <p>我是段落标签</p>
+    <p>我是段落标签</p>
+    <p>我是段落标签</p>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见标签</title>
+</head>
+<body>
+    <!--标题标签-->
+    <h1>我是h1标签</h1>
+    <h2>我是h2标签</h2>
+    <h3>我是h3标签</h3>
+    <h6>我是h4标签</h6>
+    <!--线条分割-->
+    <hr>
+    <div>我是div标签我是div标签我是div标签我是div标签</div>
+    <div>我是div标签我是div标签我是div标签我是div标签</div>
+    <div>我是div标签我是div标签我是div标签我是div标签</div>
+    <div>我是div标签我是div标签我是div标签我是div标签</div>
+    <!--换行标签-->
+    <br>
+    <!--表单标签-->
+    <input placeholder="占位文字">
+    <input value="默认的文字">
+    <input type="radio">
+    <!--换行标签-->
+    <br>
+    <input type="checkbox">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="file">
+    <!--段落标签-->
+    <p>我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签</p>
+    <p>我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签</p>
+    <p>我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签</p>
+    <p>我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签我是段落标签</p>
+    <!--图像标签-->
+    <!--
+       相对路径: 资源在当前的项目中 ./ ../ ././ 开头
+       绝对路径: 资源不在当前的项目中 网络上 本地 http:// https:// file:// ftp://
+       宽度width有两种方式:
+        1. width一定,高度自适应
+        2. 50%,父标签大小的百分比显示
+
+        href和src的区别:
+         href 不是必须的
+         src 是标签必带的
+    -->
+    <a href="http://www.baidu.com" target="_blank">
+        <img src="https://www.baidu.com/img/bd_logo1.png" width="50%">
+    </a>
+
+    <img src="img/1.png" alt="这是一张图片" width="100">
+    <!--列表标签-->
+    <ul>
+        <li>我是无序的列表标签</li>
+        <li>我是无序的列表标签</li>
+        <li>我是无序的列表标签</li>
+    </ul>
+    <ol type="I">
+        <li>我是有序的列表标签</li>
+        <li>我是有序的列表标签</li>
+        <li>我是有序的列表标签</li>
+    </ol>
+
+    <!--
+    超链接标签:
+    target: 默认值是_self, 在当前页重新打开, _blank重新开启一个新的窗口跳转到href的地址
+    -->
+    <a href="http://www.baidu.com" target="_blank">百度一下, 你就知道</a>
+
+    <!--div
+    容器标签: 收尾呼应的都为容器标签
+    -->
+    <div>我是div标签我是div标签我是div标签我是div标签</div>
+    <div>我是div标签我是div标签我是div标签我是div标签</div>
+    <div>我是div标签我是div标签我是div标签我是div标签</div>
+    <div>我是div标签我是div标签我是div标签我是div标签</div>
+
+    <div>
+        <div>
+            <p>我是div标签里的段落</p>
+        </div>
+    </div>
+
+    <br>
+    <div>
+        html5中新增的标签:
+        1. 结构性标签
+            例子: 03 - 新闻详情页
+            article 文章上的内容
+            header  标记头部区域内容
+            section 区域章节
+            footer  尾部
+            nav     菜单导航
+        2. 行内语义性标签
+            例子: 04 - Html5新增的标签
+            meter 特定范围内的数值, 如工资,数量,百分比
+            progress 进度条, 可用max min step进行控制, 完成对进度的表示和监听
+            video 视频元素, 支持缓冲预载和多种视频媒体格式
+            audio 音频元素, 支持缓冲预载和多种音频媒体格式
+
+    </div>
+</body>
+</html>
+
+
+

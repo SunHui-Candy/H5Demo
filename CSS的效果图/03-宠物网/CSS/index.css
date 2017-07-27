@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*导入字体*/
+@font-face {
+    font-family: BebasNeue-webfont;
+    src: url('../fonts/BebasNeue-webfont.ttf');
+}
+
+body{
+    background: url("../imgs/pattern.gif");
+    font-family: BebasNeue-webfont;
+}
+
+#header{
+    background-color: black;
+    height: 150px;
+}
+
+#header .header-line{
+    background-color: orangered;
+    height: 3px;
+}
+
+#header .header-nav{
+    text-align: center;
+    background-color: red;
+}
+
+#header .header-nav ul{
+    display: inline-block;
+}
+
+#header .header-nav ul li{
+    display: inline-block;
+
+}
+#header .header-nav a{
+    color: white;
+    display: inline-block;
+    font-size: 40px;
+    margin:0 5px 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+
+}
+
+#header .header-nav a.selected, #header .header-nav a:hover{
+    color: black;
+    background-color: white;
+}
+
+#main{
+    background: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

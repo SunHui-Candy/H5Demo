@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/**/
+body{
+    background: url("../imgs/bg.png");
+    background-size: cover;
+    text-align: center;
+
+}
+
+#panel{
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    /*上边距*/
+    margin-top: 150px;
+    /*重写*/
+    text-align: left;
+    /*设置内边距*/
+    padding: 20px;
+    box-shadow: -10px 20px 100px green;
+}
+
+#panel .panel-header{
+    /*background-color: aqua;*/
+
+}
+
+#panel .panel-header h2{
+    border-bottom: 1px solid #dddddd;
+    font-size: 22px;
+    font-weight: normal;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#panel .panel-main {
+
+}
+
+#panel .panel-main .main-input {
+    /*border: 1px solid #dddddd;*/
+    height: 40px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#panel .panel-main .main-input img{
+    top: 7px;
+    left: 5px;
+    position: absolute;
+}
+
+#panel .panel-main .main-input input{
+    /*outline: none;*/
+    /*height: 100%;*/
+    width: 100%;
+    height: 100%;
+    border: 1px solid #dddddd;
+    padding-left: 38px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#panel .panel-main .main-input input:focus{
+    outline: none;
+    border:1px solid orange;
+    box-shadow: 0 0 10px orange;
+}
+
+#panel .panel-main .main-show a{
+    color: darkgray;
+    font-size: 13px;
+}
+#panel .panel-main .main-show a input{
+    box-sizing: border-box;
+}
+
+#panel .panel-main .main-show .pull-right{
+    float: right;
+}
+
+#panel .panel-main .main-login button{
+    height: 38px;
+    background-color: orangered;
+    width:100%;
+    border-radius:5px;
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+    /*去除边框*/
+    border: 0;
+
+}
+
+#panel .panel-main .no-account{
+    text-align: center;
+    font-size: 13px;
+    color: darkgray;
+    margin-bottom: 15px;
+}
+
+#panel .panel-main .no-account a{
+    color:orangered;
+
+}
+
+#panel .panel-footer {
+
+    height: 44px;
+    line-height: 44px;
+}
+
+/*#panel .panel-footer span{*/
+    /*font-weight: normal;*/
+/*}*/
+
+#panel .panel-footer img{
+    width: 30px;
+    /*图片居中显示*/
+    vertical-align: middle;
+}
